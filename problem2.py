@@ -6,7 +6,6 @@ def calculate_sum(n):
 
     f = [0] * (n + 1)
     f[1] = 1
-
     sum = f[0] + f[1]
 
     for i in range(2, n + 1):
